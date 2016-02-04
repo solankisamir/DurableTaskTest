@@ -82,8 +82,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActivityImplementor.cs" />
+    <Compile Include="GetUserTask.cs" />
+    <Compile Include="IActivityFunction.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SerializableException.cs" />
     <Compile Include="TaskHubProcessingOrchestration.cs" />
   </ItemGroup>
   <ItemGroup>
